@@ -5,11 +5,25 @@
   <subtitle>This is a longer description about your blog.</subtitle>
   <link href="https://example.com/example-with-eleventy-first/feed/feed.xml" rel="self" />
   <link href="https://example.com/example-with-eleventy-first/" />
-  <updated>2018-09-30T00:00:00Z</updated>
+  <updated>2024-12-10T00:00:00Z</updated>
   <id>https://example.com/example-with-eleventy-first/</id>
   <author>
     <name>Your Name</name>
   </author>
+  <entry>
+    <title>Размещение Eleventy на GitHub pages</title>
+    <link href="https://example.com/example-with-eleventy-first/blog/hosting-eleventy-on-github-pages/" />
+    <updated>2024-12-10T00:00:00Z</updated>
+    <id>https://example.com/example-with-eleventy-first/blog/hosting-eleventy-on-github-pages/</id>
+    <content type="html">&lt;p&gt;[Ссылка] на оригинал статьи.&lt;br&gt;
+Мне очень понравилось создавать сайты с помощью Eleventy вместо Jekyll. Я всё ещё изучаю некоторые из крутых
+возможностей работы с данными, но NodeJS оказался гораздо более приятным в использовании, чем Ruby, и это
+само по себе многого стоит.&lt;/p&gt;
+&lt;p&gt;Я понимаю, что Netlify сделает хостинг сайтов Eleventy очень простым, но я не хочу добавлять ещё одну платформу
+к набору инструментов, с которыми мне приходится иметь дело, особенно когда я использую GitHub Pages для сайтов
+Jekyll, которые я всё ещё запускаю.&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>This is my fourth post</title>
     <link href="https://example.com/example-with-eleventy-first/blog/fourthpost/" />
