@@ -2,52 +2,47 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
 	
 	<url>
-		<loc>https://evgenvandev.github.io/blog/firstpost/</loc>
+		<loc>https://evgenvandev.github.io/example-with-eleventy-first/blog/firstpost/</loc>
 		<lastmod>2018-05-01</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://evgenvandev.github.io/blog/secondpost/</loc>
+		<loc>https://evgenvandev.github.io/example-with-eleventy-first/blog/secondpost/</loc>
 		<lastmod>2018-07-04</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://evgenvandev.github.io/blog/thirdpost/</loc>
+		<loc>https://evgenvandev.github.io/example-with-eleventy-first/blog/thirdpost/</loc>
 		<lastmod>2018-08-24</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://evgenvandev.github.io/blog/fourthpost/</loc>
+		<loc>https://evgenvandev.github.io/example-with-eleventy-first/blog/fourthpost/</loc>
 		<lastmod>2018-09-30</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://evgenvandev.github.io/blog/fifthpost/</loc>
-		<lastmod>2023-01-23</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://evgenvandev.github.io/about/</loc>
+		<loc>https://evgenvandev.github.io/example-with-eleventy-first/about/</loc>
 		<lastmod>2024-12-10</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://evgenvandev.github.io/blog/</loc>
+		<loc>https://evgenvandev.github.io/example-with-eleventy-first/blog/</loc>
 		<lastmod>2024-12-10</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://evgenvandev.github.io/</loc>
+		<loc>https://evgenvandev.github.io/example-with-eleventy-first/</loc>
 		<lastmod>2024-12-10</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://evgenvandev.github.io/tags/</loc>
+		<loc>https://evgenvandev.github.io/example-with-eleventy-first/tags/</loc>
 		<lastmod>2024-12-10</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://evgenvandev.github.io/feed/feed.xml</loc>
+		<loc>https://evgenvandev.github.io/example-with-eleventy-first/feed/feed.xml</loc>
 		<lastmod>2024-12-10</lastmod>
 	</url>
 </urlset>
