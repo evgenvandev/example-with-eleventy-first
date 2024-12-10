@@ -39,6 +39,17 @@ Jekyll, которые я всё ещё запускаю. Когда я прос
 с именем &lt;em&gt;build.yml&lt;/em&gt;. Скопируйте &lt;a href=&quot;https://github.com/quinnanya/quinnanya.github.io/blob/main/.github/workflows/build.yml&quot;&gt;содержимое из моего файла build.yml сюда&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;em&gt;Примечание: мой файл build.yml был обновлён 14.06.23 с улучшениями версии Node благодаря Саймону Уайлсу&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;В зависимости от настроек Eleventy вам может потребоваться изменить &lt;code&gt;publish_dir&lt;/code&gt; в файле build.yml. Мой сайт Eleventy
+собирается в папку &lt;em&gt;dist&lt;/em&gt;. Если ваш сайт собирается в папку с другим именем, измените его в этом файле.&lt;/p&gt;
+&lt;h2 id=&quot;konfiguratsiya-github&quot;&gt;Конфигурация GitHub&lt;/h2&gt;
+&lt;h3 id=&quot;sozdanie-vetki-gh-pages&quot;&gt;Создание ветки gh-pages&lt;/h3&gt;
+&lt;p&gt;Используя интерфейс GitHub, вам нужно будет создать новую ветку вашего репозитория под названием &lt;em&gt;gh-pages&lt;/em&gt;, где будет
+размещена собранная версия вашего сайта. Если вы просматриваете свой репозиторий на GitHub, вы должны увидеть маленькую
+кнопку с надписью &lt;em&gt;main&lt;/em&gt; в верхнем левом углу под вкладкой &lt;em&gt;&amp;lt;&amp;gt; Code&lt;/em&gt;. Нажмите эту кнопку, затем введите &lt;em&gt;gh-pages&lt;/em&gt; в поле
+с надписью &lt;em&gt;Find or create a branch&lt;/em&gt;. Это создаст новую ветку с надписью &lt;em&gt;gh-pages&lt;/em&gt;.&lt;/p&gt;
+&lt;h3 id=&quot;konfiguratsiya-deystviy-action&quot;&gt;Конфигурация действий (action)&lt;/h3&gt;
+&lt;p&gt;Перейдите в настройки вашего репозитория, нажмите &lt;em&gt;Actions (Действия)&lt;/em&gt; в наборе вкладок слева, затем &lt;em&gt;General (Общие)&lt;/em&gt;.
+Убедитесь, что выбрано&lt;/p&gt;
 </content>
   </entry>
   <entry>
