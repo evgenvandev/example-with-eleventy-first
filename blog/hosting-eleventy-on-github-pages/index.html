@@ -484,7 +484,24 @@ header {
 само по себе многого стоит.</p>
 <p>Я понимаю, что Netlify сделает хостинг сайтов Eleventy очень простым, но я не хочу добавлять ещё одну платформу
 к набору инструментов, с которыми мне приходится иметь дело, особенно когда я использую GitHub Pages для сайтов
-Jekyll, которые я всё ещё запускаю.</p>
+Jekyll, которые я всё ещё запускаю. Когда я просматривал руководства по хостингу Eleventy на GitHub Pages, я не
+мог заставить работать ни одно из них - всегда было что-то немного не то для моего варианта использования. Но с
+помощью <a href="https://www.cassey.dev/">Кэсси Лоттман</a> я заставил это работать с моим первым сайтом Eleventy, и с тех
+пор я использовал эту конфигурацию для нескольких других сайтов.</p>
+<h2 id="obschaya-kartina">Общая картина</h2>
+<p>GitHub Pages предполагает, что вы используете Jekyll, если вы не укажете иное. Вместо использования автоматических
+рабочих процессов GitHub Pages для создания сайтов Jekyll вы будете использовать
+<a href="https://github.com/peaceiris/actions-gh-pages">Github Pages action by Peace Iris</a>, которое может создавать другие виды
+статических сайтов и перемещать их в ветку, где будут размещены файлы HTML. Вам нужно будет добавить несколько новых файлов в ваш репозиторий GitHub, чтобы это произошло.</p>
+<h2 id="novye-fayly-v-vashem-repozitorii-github">Новые файлы в вашем репозитории GitHub</h2>
+<ul>
+<li><strong>Файл .nojekyll</strong>: Откройте текстовый редактор и сохраните пустой файл в корне вашего репозитория (где у вас есть
+<em>.eleventy.js</em>) с именем файла <em>.nojekyll</em>. Это остановит попытки GitHub создать ваш сайт как сайт Jekyll.</li>
+<li><strong>Каталог .github</strong>: Создайте новый каталог в корне вашего репозитория и назовите его <em>.github</em> (да, начиная с точки).
+Внутри этого каталога создайте каталог с именем <em>workflows</em>. Откройте текстовый редактор и сохраните файл в каталоге workflows
+с именем <em>build.yml</em>. Скопируйте <a href="https://github.com/quinnanya/quinnanya.github.io/blob/main/.github/workflows/build.yml">содержимое из моего файла build.yml сюда</a>.</li>
+</ul>
+<p><em>Примечание: мой файл build.yml был обновлён 14.06.23 с улучшениями версии Node благодаря Саймону Уайлсу</em></p>
 
 <ul class="links-nextprev"><li class="links-nextprev-prev">← Previous<br> <a href="/example-with-eleventy-first/blog/fourthpost/">This is my fourth post</a></li>
 </ul>
@@ -496,7 +513,7 @@ Jekyll, которые я всё ещё запускаю.</p>
 			<p><em>Built with <a href="https://www.11ty.dev/">Eleventy v3.0.0</a></em></p>
 		</footer>
 
-		<!-- This page `/blog/hosting-eleventy-on-github-pages/` was built on 2024-12-10T10:00:00.250Z -->
+		<!-- This page `/blog/hosting-eleventy-on-github-pages/` was built on 2024-12-10T10:53:25.691Z -->
 		<script type="module" src="/example-with-eleventy-first/dist/rJ3_G-2ArF.js"></script>
 	</body>
 </html>
