@@ -15,7 +15,7 @@
     <link href="https://example.com/example-with-eleventy-first/blog/hosting-eleventy-on-github-pages/" />
     <updated>2024-12-10T00:00:00Z</updated>
     <id>https://example.com/example-with-eleventy-first/blog/hosting-eleventy-on-github-pages/</id>
-    <content type="html">&lt;p&gt;[Ссылка] на оригинал статьи.&lt;br&gt;
+    <content type="html">&lt;p&gt;&lt;a href=&quot;https://quinndombrowski.com/blog/2022/05/07/hosting-eleventy-on-github-pages/&quot;&gt;Ссылка&lt;/a&gt; на оригинал статьи.&lt;br&gt;
 Мне очень понравилось создавать сайты с помощью Eleventy вместо Jekyll. Я всё ещё изучаю некоторые из крутых
 возможностей работы с данными, но NodeJS оказался гораздо более приятным в использовании, чем Ruby, и это
 само по себе многого стоит.&lt;/p&gt;
